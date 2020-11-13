@@ -26,15 +26,19 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+for each doenst create a new aray where .map does its the main difference.
 
 2. Explain the difference between a callback and a higher order function.
-
+higher function order is the main function in wich you will put the call back and other argument
 3. What is closure?
-
+closure are created when you define a function not when you execute it. Closure also dont go away after the function is being executed. you can acces the data in a closure after a function is defined and after it get executed aswell.
 4. Describe the four rules of the 'this' keyword.
-
+Default binding: is the most common case of function.
+Implicit,binding: the object that is standing before the dot is what the keyword  will be bound to.
+Explicit binding:use with a call or apply statement to force a function to use a particular object for this
+New binding:the function that is called with the new operator when executed created a new object and set that new object as the this for the call.
 5. Why do we need super() in an extended class?
-
+for link all the attribute to the new class
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
